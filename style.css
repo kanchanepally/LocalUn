@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+.listings-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listing {
+    margin: 10px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
+
+.listing-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.listing-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.listing-description {
+    margin-top: 5px;
+    font-size: 14px;
+}
